@@ -10,7 +10,7 @@ async def on_message(message):
         return
     if message.content.startswith("opa"):
 
-        if str(message.author) == "Missionary Man#2751":
+        if str(message.author) == "":
             await message.channel.send("Oi @" + str(message.author) + " sua cheirosa...")
         if str(message.author) == "Flavio#5498":
             await message.channel.send("Eai @" + str(message.author) + " meu patrão.")
